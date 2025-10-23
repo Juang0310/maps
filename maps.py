@@ -1,21 +1,7 @@
-"""
-Programa: ruta_optima_latam_oop.py
-Descripción:
-Versión orientada a objetos del programa de ruta óptima en LATAM.
-- Usa grafos completos entre ciudades representativas de Latinoamérica (lat/lon).
-- Calcula una ruta optimizada (Nearest Neighbor + 2-opt) para visitar N ciudades.
-- Calcula precio por tramo y total, con moneda y precio por km configurables.
-
-Autor: Asistente - versión optimizada con clases
-"""
-
 import math
 import itertools
 import unicodedata
 
-# ---------------------------
-# Datos base: ciudades LATAM
-# ---------------------------
 CITIES = {
     "Bogota": (4.7110, -74.0721),
     "Medellin": (6.2442, -75.5812),
